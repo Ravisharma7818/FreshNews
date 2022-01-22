@@ -6,11 +6,6 @@ export class NavBar extends Component {
 
   render() {
 
-    function searchvalue()  {
-
-      let a = document.getElementById('input');
-      console.log(a);
-    }
     return (
       <>
         <nav className="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark  ">
@@ -55,11 +50,7 @@ export class NavBar extends Component {
                 </li>
 
               </ul>
-              <form className="d-flex">
-                <input className="form-control me-2" id="input" type="text" placeholder="Search" />
-                <button className="btn btn-outline-success"  onClick={searchvalue()} >Search</button>
-
-              </form>
+             
             </div>
           </div>
         </nav>
